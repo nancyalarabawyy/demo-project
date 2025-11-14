@@ -1,0 +1,68 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Node.js / npm
+node_modules/
+
+### VS Code ###
+.vscode/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!target/*.jar
+
+# Gradle
+.gradle/
+build/
+!build/*.jar
+
+# IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+
+
+# OS Files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*~
